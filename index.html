@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Igor News</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="top-header">
+    <div class="logo-container">
+      <img src="Foto Igor.jpg" alt="Foto Igor" class="profile-pic">
+      <h1>
+        <a href="https://www.linkedin.com/in/igortecmecautomacao/" target="_blank">Igor News</a>
+      </h1>
+      <a href="https://www.linkedin.com/in/igortecmecautomacao/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="linkedin-icon">
+      </a>
+    </div>
+    <input type="text" class="search-box" placeholder="Buscar notícias...">
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar">
+      <ul>
+        <li><a href="#"><i class="fas fa-home"></i> Início</a></li>
+        <li><a href="#"><i class="fas fa-bolt"></i> Últimas</a></li>
+        <li><a href="#"><i class="fas fa-landmark"></i> Política</a></li>
+        <li><a href="#"><i class="fas fa-futbol"></i> Esportes</a></li>
+        <li><a href="#"><i class="fas fa-microchip"></i> Tecnologia</a></li>
+      </ul>
+    </nav>
+
+    <main class="main-content">
+      <section class="featured-news">
+        <h2>Destaque</h2>
+        <img src="https://picsum.photos/id/1011/600/250" alt="Notícia em destaque">
+      </section>
+
+      <section class="news-section">
+        <h2>Últimas Notícias</h2>
+        <div class="news-grid">
+          <!-- Os cards serão inseridos aqui dinamicamente via app.js -->
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <h2>Assine a nossa newsletter</h2>
+        <form>
+          <input type="email" placeholder="Seu e-mail">
+          <button type="submit">Inscrever</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 Igor News. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
